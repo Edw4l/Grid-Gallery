@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+.gallery {
+    display: grid;
+    padding: 10px;
+    grid-template-rows: repeat(10, 10vw);
+    grid-template-columns: repeat(10, 10vh);
+    justify-content: center;
+}
+
+.gallery__item {
+background-color: salmon;   
+}
+
+.gallery__item--1 {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
